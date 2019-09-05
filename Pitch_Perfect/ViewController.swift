@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var recordingButton: UIButton!
+    @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var stopRecordingButton: UIButton!
     @IBOutlet weak var recordingLabel: UILabel!
     override func viewDidLoad() {
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         print("record button was pressed")
         recordingLabel.text = "Recording in Progress"
         stopRecordingButton.isEnabled = true
-        recordingButton.isEnabled = false
+        recordButton.isEnabled = false
         
     }
     
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         print("stop recording")
         recordingLabel.text = "Tap to Record"
         stopRecordingButton.isEnabled = false
-        recordingButton.isEnabled = true
+        recordButton.isEnabled = true
     }
 }
 
