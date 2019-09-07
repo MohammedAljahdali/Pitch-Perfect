@@ -84,11 +84,11 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="U5e-bR-6vr">
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="194.66666666666666"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAG-6n-eGg" userLabel="Slow Button">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAG-6n-eGg" userLabel="Slow Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="194.66666666666666"/>
                                                 <state key="normal" image="Slow"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tiC-g8-E0u" userLabel="Fast Button">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tiC-g8-E0u" userLabel="Fast Button">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="194.66666666666666"/>
                                                 <state key="normal" image="Fast"/>
                                             </button>
@@ -97,11 +97,11 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="00Q-ku-Sa8">
                                         <rect key="frame" x="0.0" y="194.66666666666669" width="382" height="194.66666666666669"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufb-Ro-cob" userLabel="High Pitch Button">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufb-Ro-cob" userLabel="High Pitch Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="194.66666666666666"/>
                                                 <state key="normal" image="HighPitch"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GT-4G-Sk3" userLabel="Low Pitch Button">
+                                            <button opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GT-4G-Sk3" userLabel="Low Pitch Button">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="194.66666666666666"/>
                                                 <state key="normal" image="LowPitch"/>
                                             </button>
@@ -110,11 +110,11 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2Tr-CD-HaP">
                                         <rect key="frame" x="0.0" y="389.33333333333331" width="382" height="194.66666666666669"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ki-l8-ZyG" userLabel="Echo Button">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ki-l8-ZyG" userLabel="Echo Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="194.66666666666666"/>
                                                 <state key="normal" image="Echo"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Pq-1i-j8h" userLabel="Reverb Button">
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Pq-1i-j8h" userLabel="Reverb Button">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="194.66666666666666"/>
                                                 <state key="normal" image="Reverb"/>
                                             </button>
@@ -122,7 +122,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6C-zK-lEN" userLabel="Stop Button">
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6C-zK-lEN" userLabel="Stop Button">
                                 <rect key="frame" x="175" y="656" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="aFD-D1-4ea"/>
