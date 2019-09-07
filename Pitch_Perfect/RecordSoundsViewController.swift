@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RecordSoundsViewController.swift
 //  Pitch_Perfect
 //
 //  Created by Mohammed Khakidaljahdali on 04/09/2019.
@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
-
+class RecordSoundsViewController: UIViewController {
+    
+    var audioRecorder: AVAudioRecorder!
+    
     @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var stopRecordingButton: UIButton!
     @IBOutlet weak var recordingLabel: UILabel!
@@ -30,6 +33,9 @@ class ViewController: UIViewController {
         recordingLabel.text = "Recording in Progress"
         stopRecordingButton.isEnabled = true
         recordButton.isEnabled = false
+        
+        let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
+        
         
     }
     
