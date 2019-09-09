@@ -38,9 +38,9 @@ class PlaySoundsViewController: UIViewController {
         case .fast:
             playSound(rate: 1.5)
         case .highPitch:
-            playSound(pitch: 1100)
+            playSound(pitch: 1000)
         case .lowPitch:
-            playSound(pitch: -1100)
+            playSound(pitch: -1000)
         case .echo:
             playSound(echo: true)
         case .reverb:
